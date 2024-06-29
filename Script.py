@@ -102,17 +102,10 @@ class script(object):
  /disconnect  - <code>disconnect from a chat</code>
  /connections - <code>list all your connections</code>"""
 
-    EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
+    EXTRAMOD_TXT = """<b>1. <a href='https://t.me/hukumoffical328'>𝑯𝑼𝑲𝑼𝑴</a>
 
-<b>NOTE:</b>
-these are the extra features of Elsa
-
-<b>Commands and Usage:</b>
- /id - <code>get id of a specified user.</code>
- /info  - <code>get information about a user.</code>
- /imdb  - <code>get the film information from IMDb source.</code>
- /search  - <code>get the film information from various sources.</code>"""
-
+    2. <a href='https://t.me/hukumoffical328'>𝑮𝑯𝑶𝑺𝑻</a></b>"""
+    
     SONG_TXT = """<b>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
 
 <i>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴, 𝙵𝙾𝚁 𝚃𝙷𝙾𝚂𝙴 𝚆𝙷𝙾 𝙻𝙾𝚅𝙴 𝙼𝚄𝚂𝙸𝙲. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙵𝙴𝙰𝚃𝚄𝙴 𝙵𝙾𝚁 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙰𝙽𝚈 𝚂𝙾𝙽𝙶 𝚆𝙸𝚃𝙷 𝚂𝚄𝙿𝙴𝚁 𝙵𝙰𝚂𝚃 𝚂𝙿𝙴𝙴𝙳.𝚆𝙾𝚁𝙺𝚂 𝙾𝙽𝙻𝚈 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿𝚂../</i>
