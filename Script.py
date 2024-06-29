@@ -3,7 +3,7 @@ class script(object):
 <b>
 𝐻𝑒𝑙𝑙𝑜 👋 {}</b>😍
 
-<b>I'ᴍ <a href=https://t.me/{}>{}</a> Yᴏᴜ Cᴀɴ Cᴀʟʟ Mᴇ Aꜱ 𝗜𝗡𝗧 𝗘𝗦𝗣𝗢𝗥𝗧 🫶</b>
+<b>I'ᴍ <a href=https://t.me/{}>{}</a> 𝗬ᴏᴜ 𝗖ᴀɴ 𝗖ᴀʟʟ 𝗠ᴇ 𝗔ꜱ 𝗜𝗡𝗧 𝗘𝗦𝗣𝗢𝗥𝗧 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗕𝗢𝗧 🫶</b>
 
 <b>🍂 Oᴡɴᴇʀ : @ARAKAL_THERAVAD_MOVIES_02_bot</b>"""
     
@@ -308,12 +308,7 @@ Elsa
 <b>
 𝐻𝑒𝑙𝑙𝑜 👋 {}</b>😍
 
-
-<b>I'ᴍ <a href=https://t.me/{}>{}</a> Yᴏᴜ Cᴀɴ Cᴀʟʟ Mᴇ Aꜱ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ ᴠ3 🫶</b>
-
-<b>Exᴄʟᴜꜱɪᴠᴇʟʏ Mᴀᴅᴇ Tʜɪꜱ Bᴏᴛ Fᴏʀ @ARAKAL_THERAVAD_GROUP_01..!! 💫</b>
-
-<b>📌 Sᴜᴘᴘᴏʀᴛ : @OTT_ARAKAL_THERAVAD_MOVIESS</b>
+<b>I'ᴍ <a href=https://t.me/{}>{}</a> 𝗬ᴏᴜ 𝗖ᴀɴ 𝗖ᴀʟʟ 𝗠ᴇ 𝗔ꜱ 𝗜𝗡𝗧 𝗘𝗦𝗣𝗢𝗥𝗧 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗕𝗢𝗧 🫶</b>
 
 <b>🍂 Oᴡɴᴇʀ : @ARAKAL_THERAVAD_MOVIES_02_bot</b>"""
 
