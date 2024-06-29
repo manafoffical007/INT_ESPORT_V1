@@ -682,18 +682,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🕹 𝑮𝑼𝑳𝑫 𝑶𝑾𝑵𝑬𝑹', callback_data='owners'),
             InlineKeyboardButton('🌏 𝑮𝒍𝒐𝒃𝒂𝒍 𝑭𝒊𝒍𝒕𝒆𝒓𝒔', callback_data='autofilter'),
-            InlineKeyboardButton('𝑨𝒖𝒕𝒐 𝒇𝒊𝒍𝒕𝒆𝒓 📥', 'qinfo')
-        ], [
-            InlineKeyboardButton('📡 𝑪𝒐𝒏𝒏𝒆𝒄𝒕𝒊𝒐𝒏', 'ctex'),
-            InlineKeyboardButton('📌 𝑷𝒊𝒏', 'winfo'),
-            InlineKeyboardButton('𝑷𝒖𝒓𝒈𝒆 🗑️', 'winfo')
-        ], [
-            InlineKeyboardButton('🛜 𝑺𝒑𝒆𝒆𝒅', 'sped'),
-            InlineKeyboardButton('🤐 𝑴𝒖𝒕𝒆', 'winfo'),
-            InlineKeyboardButton('𝑲𝒊𝒄𝒌❌', 'winfo')
-        ], [
-            InlineKeyboardButton('⚒ 𝑹𝒆𝒑𝒐𝒓𝒕', 'winfo'),            
-            InlineKeyboardButton('𝑬𝒙𝒕𝒓𝒂 📟', 'winfo')
+            InlineKeyboardButton('𝑨𝒖𝒕𝒐 𝒇𝒊𝒍𝒕𝒆𝒓 📥', 'qinfo')                
         ], [            
             InlineKeyboardButton('📈 𝑺𝒕𝒂𝒕𝒖𝒔', callback_data='stats')
         ], [
@@ -717,7 +706,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
+           parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "owners":
         buttons = [[
@@ -741,7 +730,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="▣ ▣ ▣"
         )       
         await query.message.edit_text(                     
-            text=script.HELP_TXT.format(query.from_user.mention),
+            text=script.OWNER_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
