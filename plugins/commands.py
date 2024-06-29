@@ -24,8 +24,8 @@ REACTIONS = ["🔥", "❤️", "😍", "⚡", "🫶🏻", "👀", "🤗", "🤌�
 async def start(client, message):
     await message.react(emoji=random.choice(REACTIONS))
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
-        buttons = [[
-            InlineKeyboardButton("👥 𝗚𝗥𝗢𝗨𝗣 - 𝟭", url=f"https://t.me/+2qxLCj5DY2g5MjI1"),                       
+        buttons = [[            
+            InlineKeyboardButton('🎁 𝐈𝐍𝐓 𝐄𝐒𝐏𝐎𝐑𝐓𝐒 🎁', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -45,7 +45,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton("👥 𝗚𝗥𝗢𝗨𝗣 - 𝟭", url=f"https://t.me/+2qxLCj5DY2g5MjI1"),                       
+            InlineKeyboardButton('🎁 𝐈𝐍𝐓 𝐄𝐒𝐏𝐎𝐑𝐓𝐒 🎁', callback_data='help')                       
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
