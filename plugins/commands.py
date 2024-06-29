@@ -23,7 +23,9 @@ REACTIONS = ["🔥", "❤️", "😍", "⚡"]
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
     await message.react(emoji=random.choice(REACTIONS))
-    text = script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME)
+    await message.reply_photo(
+            photo=random.choice(PICS),
+            caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
     await message.reply_text(text=text, disable_web_page_preview=True)
     
     await asyncio.sleep(1)  # Wait a bit before checking
