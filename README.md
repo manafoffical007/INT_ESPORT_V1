@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/9a2b1db748d94eb4ac22c.jpg" alt="ARAKAL THERAVAD MOVIES Bots">
+  <img src="https://telegra.ph/file/3c2e0cc84389cdcf066ab.jpg" alt="ARAKAL THERAVAD MOVIES Bots">
 </p>
 <h1 align="center">
   <b>ARAKAL THERAVAD MOVIES BotS</b>
