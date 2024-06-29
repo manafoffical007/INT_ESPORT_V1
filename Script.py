@@ -7,14 +7,8 @@ class script(object):
 
 <b>🍂 Oᴡɴᴇʀ : @ARAKAL_THERAVAD_MOVIES_02_bot</b>"""
     
-    OWNER_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
-    
-<b>• ꜰᴜʟʟ ɴᴀᴍᴇ : ARAKAL THERAVAD MOVIES</b>
-<b>• Uꜱᴇʀ ɴᴀᴍᴇ : @ARAKAL_THERAVAD_MOVIES_02_bot
-• Usᴇʀ ɪᴅ :</b> <code>1297128957</code>
-    
-<b>∂σи'т вє αfяαι∂ σf вєιиg ∂ιffєяєит, вє αfяαι∂ σf вєιиg тнє ѕαмє αѕ єνєяуσиє єℓѕє</b>
-    """
+    OWNER_TXT = """<b>GUILD OWNERD DETAILS
+    </b>"""
 
     ABOUT_TXT = """<b>🤖 𝑴𝒚 𝑵𝒂𝒎𝒆 : {}
     
