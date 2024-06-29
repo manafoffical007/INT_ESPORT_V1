@@ -675,13 +675,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⬅️ 𝑩𝒂𝒄𝒌', callback_data='owners'),           
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICE))
-        ) 
         await query.message.edit_text(
-            text=script.EXTRAMOD_TXT,
+            text=script.DEPLOY_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
