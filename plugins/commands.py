@@ -26,7 +26,7 @@ async def start(client, message):
     await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
-    await message.reply_text(text=text, disable_web_page_preview=True)
+    await message.reply_text(text=text, disable_web_page_preview=True))
     
     await asyncio.sleep(1)  # Wait a bit before checking
     if not await db.get_chat(message.chat.id):
