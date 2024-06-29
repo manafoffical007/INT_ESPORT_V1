@@ -571,9 +571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(MSG_ALRT)
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('🕹 𝑮𝑼𝑳𝑫 𝑶𝑾𝑵𝑬𝑹', callback_data='owners'),
-            InlineKeyboardButton('🌏 𝑮𝒍𝒐𝒃𝒂𝒍 𝑭𝒊𝒍𝒕𝒆𝒓𝒔', callback_data='autofilter'),
-            InlineKeyboardButton('𝑨𝒖𝒕𝒐 𝒇𝒊𝒍𝒕𝒆𝒓 📥', 'qinfo')                
+            InlineKeyboardButton('🕹 𝐆𝐔𝐋𝐃 𝐈𝐍𝐅𝐎 ', callback_data='owners')                            
         ], [            
             InlineKeyboardButton('📈 𝑺𝒕𝒂𝒕𝒖𝒔', callback_data='stats')
         ], [
@@ -601,9 +599,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "owners":
         buttons = [[
-            InlineKeyboardButton('✈️ 𝐓𝐈𝐓𝐀𝐍 𝐎𝐖𝐍𝐄𝐑', callback_data='titan')     
+            InlineKeyboardButton('✈️ 𝐓𝐈𝐓𝐀𝐍 𝐊𝐄𝐑𝐀𝐋𝐀', callback_data='titan')     
             ],[
-            InlineKeyboardButton('👿 𝐈𝐍𝐓 𝐎𝐖𝐍𝐄𝐑', callback_data='autofilter')            
+            InlineKeyboardButton('👿 𝐈𝐍𝐓 𝐄𝐒𝐏𝐎𝐑𝐓𝐒', callback_data='autofilter')            
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
