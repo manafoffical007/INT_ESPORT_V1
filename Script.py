@@ -104,7 +104,7 @@ class script(object):
 
     EXTRAMOD_TXT = """<b>1. <a href='https://t.me/hukumoffical328'>𝑯𝑼𝑲𝑼𝑴</a>
 
-    2. <a href='https://t.me/hukumoffical328'>𝑮𝑯𝑶𝑺𝑻</a></b>"""
+2. <a href='https://t.me/hukumoffical328'>𝑮𝑯𝑶𝑺𝑻</a></b>"""
     
     SONG_TXT = """<b>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
 
