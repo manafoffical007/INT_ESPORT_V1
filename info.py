@@ -75,10 +75,10 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Autofilterv3:Autofilterv3@cluster0.y4ftawc.mongodb.net/")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Autofilterv3")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Leachv3:Leachv3@cluster0.rasbnes.mongodb.net/")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Leachv3")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://Autofilterv3:Autofilterv3@cluster0.y4ftawc.mongodb.net/")
+MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://Leachv3:Leachv3@cluster0.rasbnes.mongodb.net/")
 
 #Downloader
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
